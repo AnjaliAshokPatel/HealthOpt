@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:orientation="vertical"
+    tools:context=".FetchActivity">
+
+    <RelativeLayout
+        android:id="@+id/logoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/onboarding_1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/logoLayout"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fetch"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fetchBtnLinear"
+        android:layout_width="318dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/layoutText"
+        android:orientation="horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_centerInParent="true"
+        android:padding="8dp"
+        android:clickable="true"
+        android:background="@drawable/login_input_border">
+
+        <TextView
+            android:id="@+id/fetch"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="START FETCHING"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorBg"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/data_sync"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

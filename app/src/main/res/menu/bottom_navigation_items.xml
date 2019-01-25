@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="@string/search"
+        android:icon="@drawable/search_deactive"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/my_records"
+        android:title="@string/records"
+        android:icon="@drawable/my_record_deactive"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/diseas"
+        android:title="@string/diseas"
+        android:icon="@drawable/diseases_deactive"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.widget.SearchView"/>/>
+
+    <item
+        android:id="@+id/map"
+        android:title="@string/map"
+        android:icon="@drawable/map_deactive"
+        app:showAsAction="never"/>
+</menu>

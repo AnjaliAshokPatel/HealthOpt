@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">HealthOpt</string>
+
+    <string name="copyright"> © 2018, healthopt</string>
+    <string name="welcome"> Welcome to HealthOpt!!! </string>
+    <string name="welcome_credential"> Enter your credential to enter the application and get benefit of this application </string>
+    <string name="fetch"> To fetch the diagnose result of patient scan the card of the patient</string>
+
+
+    /////////MENU/////////////
+
+    <string name="search"> SEARCH </string>
+    <string name="records"> MY RECORDS </string>
+    <string name="diseas"> DISEASES </string>
+    <string name="map"> MAP </string>
+
+    !-----------------SEARCH FRAGMENT-----------!
+    <string name="health_card_number"> Enter Health Card Number </string>
+    <string name="fetch_record"> FETCH RECORDS </string>
+    <string name="search_diseases"> SEARCH DISEASES </string>
+    <string name="save_records"> SAVE RECORDS </string>
+    <string name="map_clinic"> MAP(CLINIC LIST) </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_location_permission">Location Permission</string>
+    <string name="text_location_permission">Currently we are here</string>
+    <string name="ok">1</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_search_disease">SearchDisease</string>
+    <string name="title_activity_view_myrecords">ViewMyrecords</string>
+    <string name="title_activity_showdata_listview">ShowdataListview</string>
+</resources>
